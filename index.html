@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Linktree</title>
+  <style>
+    body {
+      
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      /* background: linear-gradient(to bottom right, rgb(235, 147, 4), #bab4de); */
+      margin: 10px auto;
+
+    background-image: url(bg.png); /* The image used for background*/
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    
+  }
+  
+    .container {
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+      /* background: linear-gradient(to bottom right, #c9cd83, #8dd0fc); */
+      
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+
+    .link {
+      display: block;
+      padding: 15px;
+      max-width: 100%;
+      background: linear-gradient(to bottom right, #bfd692, #ff8d58);
+      text-decoration: none;
+      color: #333;
+      border-radius: 5px;
+      margin: 10px auto;
+      /* Center the links horizontally */
+    }
+
+    .link img {
+      width: auto;
+      height: 80px;
+      /* Set the height of the image */
+      margin-right: 10px;
+      /* Spacing between image and text */
+      border-radius: 50%;
+    }
+ 
+    .link:hover {
+      background: linear-gradient(to bottom right, #cfffaa, #00bc8b);
+      -ms-transform: scale(1.2); /* IE 9 */
+      -webkit-transform: scale(1.2); /* Safari 3-8 */
+      transform: scale(1.2); 
+}
+
+    @media (min-width: 1200px) {
+      .container {
+        max-width: 1140px;
+        margin: 10px auto;
+      }
+    }
+
+    @media (min-width: 992px) {
+
+      .container {
+        max-width: 960px;
+        margin: 10px auto;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        max-width: 720px;
+        margin: 10px auto;
+      }
+    }
+
+    @media (min-width: 576px) {
+      .container {
+        max-width: 540px;
+        margin: 10px auto;
+      }
+    }
+  </style>
+   
+</head>
+
+<body>
+
+ 
+  <div class="container">
+    <img class="profile-img" src="https://avatars.githubusercontent.com/u/71241536?v=4" alt="Profile Picture">
+    <h1>Abhijeet Kumar</h1>
+    <h2>painting gaming designing coding</h2>
+    <a class="link" href="https://github.com/abhijeetunreal">GitHub Account</a>
+    <a class="link" href="https://www.linkedin.com/in/abhijeetunreal">Linkedin Account</a>
+   
+    <a class="link" href="https://abhijeet3dart.netlify.app">Abhijeet Kumar</a>
+    
+    <a class="link" href="https://play.unity.com/u/abhijeetunreal">Unity Engine Account</a>
+    
+    <a class="link" href="https://www.behance.net/abhijeetkumar52">Behance</a>
+    <a class="link" href="https://sketchfab.com/abhijeetunreal">Sketchfab</a>
+    <a class="link" href="https://play.google.com/store/apps/dev?id=7629538091711147079">Google Playstore Developer
+      Account</a>
+  </div>
+</body>
+
+</html>
